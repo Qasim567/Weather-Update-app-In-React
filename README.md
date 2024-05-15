@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## API
+
+Please use your api credential and get api from here "https://rapidapi.com/apishub/api/yahoo-weather5"
+
 ## Available Scripts
 
 In the project directory, you can run:
