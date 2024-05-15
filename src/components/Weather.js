@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 export default function Weather({ city }) {
+  const apikey=process.env.REACT_APP_API_KEY
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -18,8 +19,7 @@ export default function Weather({ city }) {
               u: "f",
             },
             headers: {
-              "X-RapidAPI-Key":
-                "d3d021d474msh6cb71c870926638p115952jsn64b8a57d7652",
+              "X-RapidAPI-Key":apikey,
               "X-RapidAPI-Host": "yahoo-weather5.p.rapidapi.com",
             },
           }
